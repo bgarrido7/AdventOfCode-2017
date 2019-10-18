@@ -1,0 +1,5 @@
+#vscode
+.vscode
+
+levels/.*
+levels/env
