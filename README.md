@@ -1,8 +1,6 @@
 # AdventOfCode-2018
 
-Trying to learn **pyhton** by attempting to do the advent of code
-
-
+I wanted to learn **pyhton** by attempting to do the advent of code
 
 ### From the [Advent Of Code](https://adventofcode.com/about) page:
 
