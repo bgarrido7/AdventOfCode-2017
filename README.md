@@ -1,4 +1,4 @@
-# AdventOfCode-2018
+# AdventOfCode-2017
 
 I wanted to learn **pyhton** by attempting to do the advent of code
 
