@@ -1,4 +1,4 @@
-f = open ('test2.txt', 'r')
+f = open ('test.txt', 'r')
 array = []
 sum = 0
 
