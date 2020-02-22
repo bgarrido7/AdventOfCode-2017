@@ -1,27 +1,31 @@
-f = open("test.txt", 'r')
+f = open("input.txt", 'r')
+
+res=0
 
 array = []
+check = []
 
 for line in f:
     for x in line.split():
         array.append(int(x))
 
-#while max(array) != min(array):
-for a in range(2):
-    m = max(array) / (len(array)-1)
-    i = array.index(max(array))
+while array not in check:
 
-    print "max->", max(array), "divide->", m
-    array[i] = max(array) % (len(array) -1)    
-    print(array)
-    print(m)
-    i+=1
+    check.append(list(array))
 
-    for j in range(len(array)-1):
-        index = i
+    res+=1
+    m=max(array)
+    i = array.index(m)
+
+    #print(array)
+    #print "i->", i,"max->", m
+    array[i] = 0
+    
+    index = i+1
+    for j in range(m):
         if index >= len(array):
             index=0
-        array[index] = m
+        array[index] += 1
         index+=1
-        print(array)
-    
+
+print(res)
